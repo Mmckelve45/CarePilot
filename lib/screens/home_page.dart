@@ -185,8 +185,12 @@ class QuickActionCard extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: color.withValues(alpha: 0.1),
+          color: Colors.white,
           borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(color: color.withOpacity(0.25), blurRadius: 24, spreadRadius: 2, offset: const Offset(0, 10)),
+            BoxShadow(color: Colors.black.withOpacity(0.08), blurRadius: 12, offset: const Offset(0, 6)),
+          ],
         ),
         child: Column(
           children: [
