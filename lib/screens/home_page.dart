@@ -186,7 +186,7 @@ class QuickActionCard extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: const Color.fromARGB(255, 253, 235, 234),
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
