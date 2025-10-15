@@ -80,7 +80,7 @@ class _ProfilePageState extends State<ProfilePage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Personal Information', style: GoogleFonts.inter(fontSize: 18, fontWeight: FontWeight.bold)),
+                  Text('Personal Information test', style: GoogleFonts.inter(fontSize: 18, fontWeight: FontWeight.bold)),
                   const SizedBox(height: 20),
                   ProfileInfoRow(icon: Icons.phone, label: 'Phone', value: user.phone),
                   const SizedBox(height: 16),
