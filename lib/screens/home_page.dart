@@ -180,12 +180,13 @@ class QuickActionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("Home page is building");
     return GestureDetector(
       onTap: onTap,
       child: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: const Color.fromARGB(255, 138, 207, 239),
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
